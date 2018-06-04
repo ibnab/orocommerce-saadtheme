@@ -1,0 +1,9 @@
+// @theme: default;
+.page-footer{
+    background-color: get-color('additional', 'customBase') !important;
+}
+@include breakpoint('tablet-small') {
+    .page-footer-container {
+        margin-top: -50px;
+    }
+}

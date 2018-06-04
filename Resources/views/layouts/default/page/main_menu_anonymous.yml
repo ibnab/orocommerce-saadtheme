@@ -1,0 +1,8 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+            themes: 'main_menu_anonymous.html.twig'
+        - '@add':
+            id: middle_bar_search
+            parentId: head_customer_menu
+            blockType: block

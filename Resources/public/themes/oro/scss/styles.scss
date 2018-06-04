@@ -1,0 +1,72 @@
+// @theme: default
+
+/*Reset*/
+
+@import '_legacy/_legacy';
+
+@import 'base/base';
+
+@import './components/page-title-wrapper';
+@import './components/page-title-actions';
+@import './components/page-title';
+@import './components/page-subtitle';
+@import './components/page-header';
+@import './components/page-footer';
+@import './components/page-footer-container';
+@import './components/page-main';
+@import './components/section-title';
+@import './components/link';
+@import './components/embedded-list/embedded-list';
+@import './components/embedded-list/embedded-list-slider';
+@import './components/embedded-list/embedded-list-tiles';
+@import './components/title';
+@import './components/copyright';
+@import './components/grid';
+@import './components/grid-scrollable-container';
+@import './components/editable';
+@import './components/sidebar';
+@import './components/notifications';
+@import './components/primary-menu';
+@import './components/notification';
+@import './components/notification-flash';
+@import './components/notification-message';
+@import './components/actions-row';
+@import './components/collapse-view';
+@import './components/expand-text';
+@import './components/toggle-block';
+@import './components/badge';
+@import './components/inline-view-editor';
+@import './components/flexible-container';
+@import './components/popover-trigger';
+@import './components/middlebar';
+@import './components/tab-collection';
+@import "./components/uploader";
+@import './components/datagrid-manager';
+@import './components/datagrid-manager-search';
+@import './components/datagrid-manager-table';
+@import './components/controls-list';
+@import './components/items-count-widget';
+@import './components/frontend-datagrid';
+@import './components/box-toolbar';
+@import './components/logo';
+@import './components/ui/dialog';
+@import './components/ui/datepicker';
+@import './components/icons';
+@import './components/utilites';
+@import './components/dropdown-menu-calendar';
+@import './components/tables';
+@import './components/pagination-widget';
+@import './components/search-widget';
+@import './components/uploader-widget';
+@import './components/loader-mask';
+
+@import './components/top-bar';
+@import './components/quick-access';
+@import './components/information-nav';
+
+@import 'components/header-row';
+@import 'components/nav-trigger';
+@import 'components/main-menu/main-menu';
+@import 'components/main-menu/main-menu-outer';
+@import 'components/sales-block';
+@import './components/product-sticker';

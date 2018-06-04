@@ -1,0 +1,11 @@
+// @theme: default;
+.customLogo{
+    padding: 5px 0 5px;
+.logo {
+    display: block;
+    width: 134px;
+    height: 36px;
+
+    @include text-hide();
+}
+}

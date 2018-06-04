@@ -1,0 +1,12 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+            themes: 'top_nav_logged.html.twig'
+        - @add: # Sequential list
+            - quick_access_menu
+            - top_nav_my_customer_item
+            - menu
+            - item: '=data["menu"].getMenu("commerce_quick_access", {"check_access": true})'
+        - @remove: # Named arguments
+            id: content
+    conditions: 'context["is_logged_in"]'

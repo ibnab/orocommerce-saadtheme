@@ -1,0 +1,2 @@
+bundles:
+    - { name: Ibnab\Bundle\SaadBundle\IbnabSaadBundle , priority: 8000 }
