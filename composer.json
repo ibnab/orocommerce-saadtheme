@@ -1,0 +1,29 @@
+{
+    "name": "ibnab/orocommerce-saadtheme",
+    "description": "OroCommerce Free Saad Theme",
+    "homepage": "https://github.com/ibnab/orocommerce-saadtheme.git",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Ibnab",
+            "homepage": "http://www.ibnab.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Ibnab\\Bundle\\SaadBundle": "src/"
+        }
+    },
+    "target-dir": "src/Ibnab/Bundle/SaadBundle",
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
+
