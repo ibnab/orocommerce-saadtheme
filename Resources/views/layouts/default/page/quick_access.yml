@@ -4,5 +4,6 @@ layout:
             themes: 'quick_access.html.twig'
         - '@remove':
             id: quick_access_menu
+        - '@remove':
             id: quick_access_container
     conditions: 'context["is_logged_in"]'
