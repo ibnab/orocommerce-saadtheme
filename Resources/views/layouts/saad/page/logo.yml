@@ -1,0 +1,8 @@
+layout:
+    actions:
+       # - '@setBlockTheme':
+        #    themes: 'logo.html.twig'
+        - '@move':
+            id: logo
+            parentId: top_nav_container
+            prepend: true

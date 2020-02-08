@@ -1,0 +1,19 @@
+
+{% block _logo_widget %}
+{% set attr = layout_attr_defaults(attr, {
+    '~class': " pull-left"
+}) %}
+
+<div {{ block('block_attributes') }}>
+    {# In home page #}
+    <div class='logo'>
+    {% if app.request.attributes.get('_route') == 'oro_frontend_root' %}
+      {{ include('@IbnabSaadBundle/Resources/public/saad/images/logo/saad-logo.svg') }}
+
+    {% else %}
+        <a href="{{ path('oro_frontend_root') }}" class="logo" > {{ include("@IbnabSaadBundle/Resources/public/saad/images/logo/saad-logo.svg") }}</a>
+    {% endif %}
+    </div>
+</div>
+ 
+{% endblock %}

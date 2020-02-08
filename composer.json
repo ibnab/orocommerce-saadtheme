@@ -16,7 +16,8 @@
     },
     "target-dir": "src/Ibnab/Bundle/SaadBundle",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "oro/commerce": "3.1.*
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

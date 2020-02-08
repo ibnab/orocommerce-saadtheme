@@ -1,0 +1,11 @@
+layout:
+    actions:
+        - '@remove':
+            id: middle_bar_search
+        - '@addTree':
+            items:
+                middle_bar_search:
+                    blockType: block
+            tree:
+                header_row:
+                    middle_bar_search:
