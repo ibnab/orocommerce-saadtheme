@@ -1,0 +1,14 @@
+layout:
+    actions:
+        - '@setBlockTheme':
+            themes: 'home.html.twig'
+        - '@addTree':
+            items:
+                home_banner:
+                    blockType: content_block
+                    prepend: true
+                    options:
+                        alias: home-silder-iman
+            tree:
+                page_main_header:
+                    home_banner: ~

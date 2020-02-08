@@ -1,4 +1,5 @@
 parent: default
-label: Saad theme
+label: Saad
 description: Saad description.
+logo: bundles/ibnabsaad/images/logo/saad-logo.svg
 groups: [ commerce ]

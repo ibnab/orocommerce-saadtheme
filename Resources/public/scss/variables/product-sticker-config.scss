@@ -1,0 +1,19 @@
+// @theme: default;
+
+$product-sticker-icon-top-right-pos-top: update-default($product-sticker-icon-top-right-pos-top, $offset-y);
+$product-sticker-icon-top-right-pos-right: update-default($product-sticker-icon-top-right-pos-right, $offset-x);
+
+$product-sticker-icon-new-arrival-background-custom: url('#{$global-url}/ibnabsaad/saad/images/sticker/sticker-new.svg') 0 0 no-repeat !important;
+$product-sticker-icon-new-arrival-background-size-custom: 100% 100% !default;
+
+$product-sticker-icon-static-size: 60px !default;
+$product-sticker-icon-top-right-desktop-pos-top: 2px;
+$product-sticker-icon-top-right-desktop-pos-right: 2px;
+$product-sticker-icon-size: 20% !default;
+$product-sticker-icon-size-new: 26%;
+$product-sticker-icon-top-right-tablet-small-pos-top: 12px !default;
+$product-sticker-icon-top-right-tablet-small-pos-right: 12px !default;
+
+$product-sticker-icon-size-mobile-landscape: 33% !default;
+$product-sticker-icon-top-right-mobile-landscape-pos-top: 8px !default;
+$product-sticker-icon-top-right-mobile-landscape-pos-right: 8px !default;

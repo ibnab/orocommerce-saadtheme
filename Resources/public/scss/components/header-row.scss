@@ -2,13 +2,14 @@
 
 .header-row {
     display: flex;
+    clear: both;
     max-width: $site-width;
     margin: 0 auto;
-
+    z-index: 100 !important;
     justify-content: space-between;
 
     @include clearfix();
-
+    
     &__container {
         flex-basis: 210px;
 
